@@ -14,7 +14,3 @@ const { age, date }: { age: number; date: Date } = profile;
 const {
   coords: { lat, lng },
 }: { coords: { lat: number; lng: number } } = profile;
-
-function addDoubleQuotes(str: string) {
-  return str.replace(/(\{|,)\s?(\"?([a-zA-Z-_]+)\"?)(?=\s?:)/, '$1"$3"');
-}
