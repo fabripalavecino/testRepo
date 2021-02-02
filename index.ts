@@ -5,6 +5,9 @@ const profile = {
     lng: 0,
   },
   date: new Date(),
+  showAge(): void {
+    console.log(this.age);
+  },
 };
 
 const { age, date }: { age: number; date: Date } = profile;
